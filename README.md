@@ -6,20 +6,25 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
 
 ![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Gemini-8E75FF.svg?style=for-the-badge&logo=googlegemini&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![AI](https://img.shields.io/badge/AI-black?style=for-the-badge&logo=ai&logoColor=white) 
 
-## Installation
+## Quick Start
 
-1. Clone the repository:
+1. Start server:
     ```bash
-    git clone https://github.com/ayeshaArif6/Sortify.git
-    cd Sortify
+    ./mvnw spring-boot:run
+    (requires GEMINI_API_KEY)
     ```
-2. Install dependencies:
+2. For the front-end:
     ```bash
     npm install
-    ```
-4. Start the development server:
-    ```bash
     npm run dev
     ```
-5. Open the application in your browser at `http://localhost:3137`.
-6. You're all set! 🎉
+3. For the Chrome extension:
+    ```bash
+    Unload extension pack in chrome developer extensions.
+    ```
+
+## Links to detailed guides:
+- [Backend](https://github.com/ayeshaArif6/EmailWriter/tree/main/email-writer-sb/README.md)
+- [Frontend](https://github.com/ayeshaArif6/EmailWriter/tree/main/email-writer-react/README.md)
+- [Extension](https://github.com/ayeshaArif6/EmailWriter/blob/main/Email-writer-ext/README.md)
+

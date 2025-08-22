@@ -6,7 +6,7 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
 
 | Category      | Technologies |
 | :--          | :-- |
-| **Frontend** | ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |
+| **Frontend** | ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![CSS](https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css3&logoColor=white) |
 | **Backend**  | ![Java](https://img.shields.io/badge/Java-ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white) |
 | **API** | ![Google Gemini](https://img.shields.io/badge/Gemini-8E75FF.svg?style=for-the-badge&logo=googlegemini&logoColor=white) |
 

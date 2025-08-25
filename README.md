@@ -12,13 +12,19 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
 
 ## Quick Start
 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ayeshaArif6/EmailWriter.git
+    ```
 1. Start server:
     ```bash
+    cd email-writer-sb
     ./mvnw spring-boot:run
     (requires GEMINI_API_KEY)
     ```
 2. For the front-end:
     ```bash
+    cd email-writer-react
     npm install
     npm run dev
     ```

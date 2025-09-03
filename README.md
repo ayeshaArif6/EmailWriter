@@ -25,6 +25,7 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
 2. For the front-end:
     ```bash
     cd email-writer-react
+    npm i @mui/icons-material
     npm install
     npm run dev
     ```

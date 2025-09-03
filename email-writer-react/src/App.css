@@ -1,0 +1,75 @@
+:root{
+  --accent:#f59e0b;
+}
+
+/* Animated gradient blobs background */
+.hero-bg{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(800px 400px at 10% -10%, rgba(245,158,11,.20), transparent 60%),
+    radial-gradient(700px 350px at 90% 0%, rgba(168,85,247,.18), transparent 60%),
+    radial-gradient(600px 300px at 30% 100%, rgba(59,130,246,.18), transparent 60%),
+    linear-gradient(180deg, #0b1120 0%, #0b1120 100%);
+  overflow: hidden;
+}
+.hero-bg::after{
+  content:"";
+  position:absolute; inset:-20%;
+  background:
+    radial-gradient(40% 35% at 70% 20%, rgba(245,158,11,.10), transparent 60%),
+    radial-gradient(35% 30% at 30% 80%, rgba(59,130,246,.10), transparent 60%);
+  filter: blur(40px);
+  animation: float 16s ease-in-out infinite alternate;
+  opacity:.8;
+}
+@keyframes float{
+  0%   { transform: translate3d(-2%, -2%, 0) scale(1); }
+  100% { transform: translate3d(2%, 3%, 0) scale(1.03); }
+}
+
+/* Glass card look */
+.glass-card{
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  backdrop-filter: blur(12px) saturate(120%);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  border-radius: 16px;
+  padding: 22px;
+}
+
+/* Gradient button */
+.btn-gradient{
+  color:#0b1120 !important;
+  font-weight:700 !important;
+  letter-spacing:.02em;
+  background-image: linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #8b5cf6 100%) !important;
+  box-shadow: 0 10px 24px rgba(245,158,11,.15), 0 6px 20px rgba(0,0,0,.35) !important;
+}
+.btn-gradient:hover{
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+/* Subtle glow for header icon */
+.accent-glow{
+  color: var(--accent);
+  filter: drop-shadow(0 0 14px rgba(245,158,11,.35));
+}
+
+/* Tweak MUI inputs inside glass cards */
+.glass-card .MuiOutlinedInput-root{
+  background: rgba(255,255,255,0.04);
+}
+.glass-card .MuiOutlinedInput-notchedOutline{
+  border-color: rgba(255,255,255,0.16) !important;
+}
+.glass-card .Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: rgba(245,158,11,.6) !important;
+  box-shadow: 0 0 0 3px rgba(245,158,11,.18);
+}
+
+/* Chips spacing on wrap */
+.MuiChip-root{ margin-bottom: 6px; }

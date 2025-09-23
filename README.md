@@ -20,6 +20,8 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
     ```bash
     cd email-writer-sb
     ./mvnw spring-boot:run
+
+    if maven is globally installed: mvn spring-boot:run
     (requires GEMINI_API_KEY)
     ```
 2. For the front-end:

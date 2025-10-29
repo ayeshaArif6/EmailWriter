@@ -36,8 +36,4 @@ Smart Email Assistant streamlines your inbox with AI-generated replies powered b
     Unload extension pack in chrome developer extensions.
     ```
 
-## Links to detailed guides:
-- [Backend](https://github.com/ayeshaArif6/EmailWriter/tree/main/email-writer-sb/README.md)
-- [Frontend](https://github.com/ayeshaArif6/EmailWriter/tree/main/email-writer-react/README.md)
-- [Extension](https://github.com/ayeshaArif6/EmailWriter/blob/main/Email-writer-ext/README.md)
 
